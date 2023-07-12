@@ -1,0 +1,128 @@
+@import url('./holberton_school-icon/style.scss');
+@import url('./holberton_school-icon/style.css');
+/* variables */
+:root {
+  --font-family: 'Source Sans Pro', sans-serif;
+  --color-primario: #ffffff;
+  --color-orange: #ff6565;
+  --color-black: #071629;
+  --color-purple: #c271ff;
+  
+}
+
+.off-screen {
+	left: -100vw;
+	position: absolute;
+}
+
+
+header {
+  background-image: url('./images/pic_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-toggler {
+  font-size: 2.25rem;
+	top: 3rem;
+}
+
+
+
+/* #smileslogo  {
+  display: inline-flex;
+  flex-shrink: 0;
+  margin-left: 20px;
+  margin-top: 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#smileschool {
+  margin-top: 35px;
+  flex-shrink: 0;
+  font-weight: 700;
+} */
+
+
+.nav-nav  {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: flex-start;
+  padding-top: 56px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 52px;
+  color: var(--color-primario);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-item {
+  padding-right: 52px;
+}
+
+li a:hover, li a:focus {
+	color: var(--color-purple) !important;
+	text-decoration: none;
+}
+
+
+.btn,
+.btn:hover,
+.btn:focus {
+  opacity: 0.9;
+  background-color: var(--color-purple);
+  border-color: var(--color-purple);
+  font-size: 14px;
+}
+
+/* Get schooled */
+body h1 {
+  color: var(--color-primario);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* .sub-header p {
+  color: var(--color-primario);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  gap: 55px ;
+} */
+
+h2 {
+  color: var(--color-purple);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bg-purple {
+  background-color: var(--color-purple) !important;
+}
+
+.membership {
+  background-color: var(--color-black);
+}
